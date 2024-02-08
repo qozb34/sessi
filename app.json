@@ -1,0 +1,40 @@
+{
+    "name": " سورس سيسي ",
+    "description": "User bot for telegram !",
+    "logo": "https://telegra.ph/file/cde2b51203fbdab57fac5.jpg",
+    "stack": "container",
+    "repository": "https://github.com/omar1211/SHK",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/omar1211/SHK",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر لبوت بدون @",
+            "value": "",
+            "required": true
+        }
+    }
+}
